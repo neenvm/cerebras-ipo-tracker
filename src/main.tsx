@@ -1395,7 +1395,10 @@ function App() {
             <Activity size={16} />
             Live CBRS IPO price discovery
           </div>
-          <h1>Cerebras implied closing share price</h1>
+          <h1>Cerebras IPO Data</h1>
+          <a className="byline" href="https://github.com/neenvm" target="_blank" rel="noreferrer">
+            by Neenv
+          </a>
         </div>
         <div className="statusRow">
           <span className={`status ${data.polymarketStatus}`}>
